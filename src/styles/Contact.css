@@ -1,0 +1,38 @@
+a.text-light:hover {
+  color: #0dcaf0 !important;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.contact-form .form-control {
+  background-color: rgba(255, 255, 255, 0.05) !important; 
+  color: #fff !important;
+  border: 1px solid rgba(217, 87, 167, 0.393) !important;
+  border-radius: 20px;
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+}
+
+.contact-form .form-control::placeholder {
+  color: rgb(234, 188, 233) !important;
+}
+
+.contact-form .form-control:focus {
+  background-color: #3b1d47 !important;
+  border-color: #f581e4 !important;
+  box-shadow: 0 0 10px rgba(168, 224, 248, 0.934) !important;
+  outline: none;
+}
+.contact-btn{
+    border: 2px solid #ffa3ff !important;
+  color: #ffa3ff !important;
+  transition: all 0.3s ease;
+  
+}
+
+.contact-btn:hover {
+  background-color: #ffa3ff !important;
+  color:#2f062f !important;
+}
+
+

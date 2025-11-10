@@ -1,0 +1,24 @@
+.nav-bar {
+  background-color: rgb(51, 10, 50);
+  min-height: 150px; 
+  padding: 2 rem 0; 
+  font-size:xx-large;
+   box-shadow: 0 2px 8px rgba(255, 205, 244, 0.918);
+}
+
+.nav-link {
+  color: #f2cbe5 !important;
+  font-size: 2 rem; 
+  letter-spacing: 0.5px;
+  margin: 0 58px; 
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #edf58f !important;
+  transform: scale(1.05);
+}
+
+.nav-item {
+  font-size: 2 rem; 
+}

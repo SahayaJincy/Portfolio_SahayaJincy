@@ -1,0 +1,55 @@
+.projects-section {
+  
+  background-size: 40px 25px;
+  color: #ccdd4d;
+  padding-bottom: 100px;
+}
+
+.project-title {
+  
+  font-size: 2.5rem;
+}
+
+.highlight {
+  color: #c591e0;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(217, 87, 167, 0.393);
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  min-height: 400px; 
+  padding: 2rem; 
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(212, 138, 252, 0.3);
+  border-color: #d48afc;
+}
+
+.project-img img {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-img img:hover {
+  transform: scale(1.03);
+}
+
+.btn-outline-light,
+.btn-outline-info {
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover,
+.btn-outline-info:hover {
+  background-color: #d48afc;
+  border-color: #d48afc;
+  color: #fff;
+}
+
+text-tt{
+  color:#fffeb4;
+}

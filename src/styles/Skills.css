@@ -1,0 +1,42 @@
+.skill-icon {
+  width: 420px;                   
+  height: 180px;                  
+  border-radius: 60%;            
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(217, 87, 167, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+  margin: 10px;                   
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+
+.skill-icon i {
+  font-size: 70px;
+  transition: transform 0.3s;
+}
+
+.skill-icon p {
+  margin-top: 8px;
+  font-weight: 400;
+  
+  font-size: 2rem;
+}
+
+.skill-icon:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 0 25px rgba(212, 138, 252, 0.8);
+  background: rgba(212, 138, 252, 0.15);
+  border-color: rgba(212, 138, 252, 0.7);
+}
+
+.skill-icon:hover i {
+  transform: scale(1.2);
+}
+
+.skill-font{
+  color:rgb(206, 51, 233)
+}

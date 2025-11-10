@@ -1,0 +1,30 @@
+.spcl {
+  color: rgb(229, 242, 143);
+}
+
+.about-img {
+  width: 20%;
+  height: 20%;
+  max-width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+}
+
+.about-text-container {
+  max-width: 900px;
+  margin: 500px 80px;         
+  text-align: justify center;   
+  padding: 80px 100px;        
+  line-height: 2.5;
+}
+
+@media (max-width: 768px) {
+  .about-text-container {
+    padding: 0 25px;
+  }
+}
