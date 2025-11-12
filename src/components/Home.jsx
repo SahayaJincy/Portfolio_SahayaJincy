@@ -5,13 +5,13 @@ import ReactTyped from "react-typed";
 
 const Home = () => {
   return (
-    <div className="home-container section-full section-spacing d-flex align-items-top justify-content-center text-center bg-bg">
-      <div className="row w-100 h-100 align-items-center justify-content-center">
-        <div className="col-lg-6 col-md-6 text-lg-start text-center">
-          <h2 className="fw-bold display-1 mb-3 py-5 home-text text-center">
+    <div className="container-fluid py-4 mt-5 text-content-center bg-bg section-spacing">
+      <div className="col align-items-center justify-content-center">
+        <div className="col text-center">
+          <h1 className="fw-bold m-3 display-1 py-5 pt-5 home-text text-center">
             Hi, I'm Sahaya Jincy 👋
-          </h2>
-
+          </h1>
+        
           <h3 className="mb-4 common-text fs-1 text-center">
             <ReactTyped
               strings={[
@@ -41,13 +41,13 @@ const Home = () => {
               Contact Me
             </a>
 
-           <a
-  href="/resume"
+ <a
+  href={`${process.env.PUBLIC_URL}/Sahaya_Jincy_Resume.pdf`}
   target="_blank"
   rel="noopener noreferrer"
   className="btn custom-btn px-5 py-4 fs-3 rounded-pill"
 >
-  View CV
+  👁️ View CV
 </a>
 
           </div>

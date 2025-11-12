@@ -1,36 +1,35 @@
 .skill-icon {
-  width: 420px;                   
+  width: 230px;                   
   height: 180px;                  
-  border-radius: 60%;            
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(217, 87, 167, 0.4);
+  border-radius: 95%;            
+  background-color: rgba(71, 27, 64, 0.544);
+  border: 1px solid rgba(180, 73, 139, 0.69);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
-  margin: 10px;                   
+  margin: 100px;                   
   backdrop-filter: blur(8px);
   cursor: pointer;
 }
 
 .skill-icon i {
-  font-size: 70px;
+  font-size: 50px;
   transition: transform 0.3s;
 }
 
 .skill-icon p {
-  margin-top: 8px;
-  font-weight: 400;
-  
-  font-size: 2rem;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 .skill-icon:hover {
   transform: translateY(-8px) scale(1.05);
-  box-shadow: 0 0 25px rgba(212, 138, 252, 0.8);
-  background: rgba(212, 138, 252, 0.15);
-  border-color: rgba(212, 138, 252, 0.7);
+  box-shadow: 0 0 25px rgba(167, 7, 125, 0.8);
+  background: rgba(65, 5, 56, 0.41);
+  border-color: rgba(112, 94, 13, 0.463);
 }
 
 .skill-icon:hover i {

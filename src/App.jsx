@@ -1,39 +1,46 @@
-import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-
-
-
-import Header from "./components/Header";
+import React, { useEffect } from "react";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import ResumeView from "./components/ResumeView";
+import Header from "./components/Header";
+
+const ScrollToSection = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const section = document.querySelector(hash);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [hash]);
+
+  return null;
+};
 
 function App() {
   return (
     <Router>
-      <Routes>
-        
-        <Route
-          path="/"
-          element={
-            <div>
-              <Header />
-              <section id="home"><Home /></section>
-              <section id="about"><About /></section>
-              <section id="skills"><Skills /></section>
-              <section id="projects"><Projects /></section>
-              <section id="contact"><Contact /></section>
-            </div>
-          }
-        />
+      <Header />
+      <ScrollToSection />
 
-       
-        <Route path="/resume" element={<ResumeView />} />
-      </Routes>
-    </Router>
+     
+      <main>
+        <section id="home"><Home /></section>
+        <section id="about"><About /></section>
+        <section id="skills"><Skills /></section>
+        <section id="projects"><Projects /></section>
+        <section id="contact"><Contact /></section>
+      </main>
+
+   </Router>
+
   );
 }
 

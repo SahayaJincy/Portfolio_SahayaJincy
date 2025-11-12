@@ -16,14 +16,15 @@
     color:rgb(252, 187, 232);
     font-size: medium;
 }
+
 .section-spacing {
-  padding-top: 100px;  /* Adjust for desired spacing */
+  padding-top: 100px;  
   padding-bottom: 100px;
-  scroll-margin-top: 100px; /* helps anchor links align nicely */
+  scroll-margin-top: 10px; 
 }
 
 .section-full {
-  min-height: 100vh; /* each fills full screen */
+  min-height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: center;

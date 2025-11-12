@@ -1,9 +1,9 @@
 import React from "react";
-import '../styles/Header.css';
+import "../styles/Header.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg shadow-sm fixed-top navbar-dark nav-bar">
+    <nav className="navbar navbar-expand-lg shadow-sm fixed-top navbar-dark  nav-bar">
       <div className="container">
         <button
           className="navbar-toggler"
@@ -13,15 +13,14 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-center nav-link" id="navbarNav">
+
+        <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav">
-            {["home", "about", "skills", "projects", "contact"].map((item) => (
-              <li key={item} className="nav-item">
-                <a href={`#${item}`} className="nav-link">
-                  {item.charAt(0).toUpperCase() + item.slice(1)}
-                </a>
-              </li>
-            ))}
+            <li className="nav-item"><a href="#home" className="nav-link">Home</a></li>
+            <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
+            <li className="nav-item"><a href="#skills" className="nav-link">Skills</a></li>
+            <li className="nav-item"><a href="#projects" className="nav-link">Projects</a></li>
+            <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
           </ul>
         </div>
       </div>
