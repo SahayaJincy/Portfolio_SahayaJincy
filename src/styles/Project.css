@@ -7,7 +7,7 @@
 
 .project-title {
   
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .highlight {
@@ -15,16 +15,16 @@
 }
 
 .project-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(217, 87, 167, 0.393);
+  background: rgba(34, 0, 26, 0.588);
+  border: 1px solid rgba(242, 116, 194, 0.393);
   transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
-  min-height: 400px; 
+  min-height: 450px; 
   padding: 2rem; 
 }
 
 .project-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 0 25px rgba(212, 138, 252, 0.3);
+  box-shadow: 0 0 25px rgba(249, 165, 255, 0.849);
   border-color: #d48afc;
 }
 
@@ -37,7 +37,7 @@
   transform: scale(1.03);
 }
 
-.btn-outline-light,
+.btn-outline,
 .btn-outline-info {
   font-weight: 500;
   transition: all 0.3s ease;

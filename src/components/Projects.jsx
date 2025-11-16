@@ -27,40 +27,52 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="projects-section section-spacing section-full min-vh-60 flex-column justify-content-center text-center px-3 pt-5 bg-bg">
-      <h2 className="fw-bold mb-2 project-title common-head">
-        My Recent <span className="highlight">Works</span>
-      </h2>
-      <p className="mb-5 common-text">
-        Here are a few projects I've worked on recently.
-      </p>
-
-      <div className="container">
-        <div className="row justify-content-center g-5">
-          {projects.map((p) => (
-            <div key={p.title} className="col-12 col-md-10 col-lg-10">
-              <motion.div
+    <section className="projects-section section-spacing section-full text-center px-3 pt-5 bg-bg">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-12 d-flex justify-content-center">
+            <div className="row">
+              <div className="col-12">
+                <p className="fw-bold mb-2 project-title common-head">
+                  My Recent <span className="highlight">Works</span>
+                </p>
+                <p className="mb-5 fs-2 common-text">
+                  Here are a few projects I've worked on recently.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-12">
+            <div className="row justify-content-center">
+              {projects.map((p) => (
+                <div key={p.title} className="col-12 col-md-10 col-lg-3">
+                  <motion.div
                     className="project-card p-4 rounded-4 shadow h-100"
                     initial={{ opacity: 0, y: 60 }}
                     whileInView={{ opacity: 2, y: 0 }}
-                    transition={{ duration: 0.5, ease: "easeIn" }}
-                    viewport={{ once: false}}>
-                <h2 className="fw-semibold fs-2 common-shead mb-3">{p.title}</h2>
-                <p className="common-text fs-4 small mb-3">{p.desc}</p>
-                <p className="text-tt small fs-3 mb-4">
-                  <strong>Tech Stack:</strong> {p.tech}
-                </p>
-                <div className="d-flex justify-content-center">
-                  <a
-                    href={p.github}
-                    className="btn custom-btn btn-sm rounded-pill"
+                    transition={{ duration: 1, ease: "easeIn" }}
+                    viewport={{ once: false }}
                   >
-                    <i className="bi bi-github me-2"></i>GitHub
-                  </a>
+                    <h2 className="fw-semibold fs-1 common-shead mb-3">
+                      {p.title}
+                    </h2>
+                    <p className="common-text fs-3 small mb-3">{p.desc}</p>
+                    <p className="text-tt small fs-3 mb-4">
+                      <strong>Tech Stack:</strong> {p.tech}
+                    </p>
+                    <div className="d-flex justify-content-center">
+                      <a
+                        href={p.github}
+                        className="btn btn-outline-light  rounded-pill"
+                      >
+                        <i className="bi bi-github me-2"></i>GitHub
+                      </a>
+                    </div>
+                  </motion.div>
                 </div>
-              </motion.div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </section>

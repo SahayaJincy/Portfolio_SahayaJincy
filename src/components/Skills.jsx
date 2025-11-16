@@ -36,9 +36,9 @@ const Skills = () => {
 
   return (
     <div className="container-fluid min-vh-60 py-5 text-center bg-bg common-text">
-      <h2 className="fw-bolder mb-50 fs-1 pt-3">
+      <p className="fw-bolder mb-50 fs-1 pt-3">
         Professional <span className="common-head fs-2">Skillset</span>
-      </h2>
+      </p>
 
       {skillSections.map((section, index) => (
 <motion.div
@@ -49,12 +49,12 @@ const Skills = () => {
   transition={{ duration: 1, ease: "easeOut" }}
 >
   <div className="row justify-content-center">
-    <div className="col-12 col-md-8">
-      <div className="row justify-content-center g-1">
+    <div className="col-12 col-md-10">
+      <div className="row justify-content-center gap-5">
         {section.skills.map((skill, idx) => (
           <div
             key={idx}
-            className="col-6 col-md-4 col-lg-1 d-flex flex-column align-items-center"
+            className="col-6 col-md-4 col-lg-1 "
           >
             <div className="skill-icon">
               <i className={`devicon-${skill.icon} colored`}></i>
