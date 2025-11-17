@@ -3,8 +3,10 @@ import "../styles/Header.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg shadow-sm fixed-top navbar-dark  nav-bar">
+    <nav className="navbar navbar-expand-lg navbar-dark nav-bar fixed-top">
       <div className="container">
+
+       
         <button
           className="navbar-toggler"
           type="button"
@@ -14,8 +16,9 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul className="navbar-nav">
+        
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto text-center">
             <li className="nav-item"><a href="#home" className="nav-link">Home</a></li>
             <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
             <li className="nav-item"><a href="#skills" className="nav-link">Skills</a></li>
@@ -23,6 +26,7 @@ const Header = () => {
             <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
           </ul>
         </div>
+
       </div>
     </nav>
   );

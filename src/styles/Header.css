@@ -1,16 +1,18 @@
+
 .nav-bar {
-  background-color: rgb(35, 7, 35);
-  min-height: 150px; 
-  padding: 2 rem 0; 
-  font-size:xx-large;
-   box-shadow: 0 2px 8px rgba(255, 205, 244, 0.918);
+  background-color: rgba(53, 2, 53, 0.695);
+  min-height: 100px;
+  padding: 2rem 0;
+  box-shadow: 0 2px 25px rgba(173, 118, 161, 0.918);
+  font-size: xx-large;
+ 
 }
 
 .nav-link {
   color: #f2cbe5 !important;
-  font-size: 2 rem; 
+  font-size: 2rem;
   letter-spacing: 0.5px;
-  margin: 0 58px; 
+  margin: 0 30px;
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
@@ -20,5 +22,10 @@
 }
 
 .nav-item {
-  font-size: 2 rem; 
+  font-size: 2rem;
 }
+
+.nav-icon{
+  color: #fda6e0 !important;
+}
+

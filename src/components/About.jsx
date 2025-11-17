@@ -6,8 +6,6 @@ const About = () => {
   return (
     <div className="container-fluid section-spacing section-full d-flex align-items-center bg-bg py-5">
       <div className="row w-100 justify-content-center text-center px-3 px-lg-5">
-        
-        
         <div className="mt-4 mt-lg-0 about-img">
           <img src={`${process.env.PUBLIC_URL}/Images/Sahaya Jincy.jpg`}
             alt="Sahaya Jincy"
@@ -17,7 +15,7 @@ const About = () => {
         
 
         
-        <h2 className="fw-bolder fs-1 mt-4 mb-2 text-center common-head">About Me</h2>
+        <p className="fw-bolder fs-1 mt-4 mb-2 text-center common-head">About Me</p>
 
      
         <div className="container col-10 text-justify">

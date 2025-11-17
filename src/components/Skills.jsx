@@ -54,7 +54,7 @@ const Skills = () => {
         {section.skills.map((skill, idx) => (
           <div
             key={idx}
-            className="col-6 col-md-4 col-lg-1 "
+            className="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 "  
           >
             <div className="skill-icon">
               <i className={`devicon-${skill.icon} colored`}></i>

@@ -5,8 +5,8 @@ import "../styles/Contact.css";
 const Contact = () => {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center text-center px-3 pt-5 bg-bg">
-      <h2 className="fw-semibold common-head mb-3 fs-1">Contact</h2>
-      <p className="common-text mb-4 fs-4">
+      <p className="fw-semibold common-head mb-3 fs-1">Contact</p>
+      <p className="common-text mb-4 fs-3">
         Feel free to reach out — I’d love to connect!
       </p>
 

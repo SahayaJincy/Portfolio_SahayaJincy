@@ -10,18 +10,21 @@ const projects = [
     desc: "Developed a responsive portfolio using ReactJS and Bootstrap to showcase projects, skills, and achievements with smooth animations and modern UI.",
     tech: "ReactJS, JavaScript, Bootstrap, CSS3, HTML5",
     github: "https://sahayajincy.github.io/Portfolio_SahayaJincy/",
+    img: `${process.env.PUBLIC_URL}/Images/Portfolio.png`,
   },
   {
     title: "E-commerce Website",
     desc: "Built a fully responsive ReactJS e-commerce site featuring product listings, reviews, and search functionality using REST APIs.",
     tech: "ReactJS, JavaScript, REST API, HTML5, CSS3, Bootstrap",
     github: " https://sahayajincy.github.io/E_Commerce/",
+    img: `${process.env.PUBLIC_URL}/Images/Ecommerce.png`,
   },
   {
     title: "Library Management System",
     desc: "Created a full-stack web app using Spring Boot, Hibernate, and MySQL with CRUD operations and role-based authentication.",
     tech: "ReactJS, Java, Spring Boot, Hibernate, MySQL",
     github: "#",
+    img: `${process.env.PUBLIC_URL}/Images/Library.png`,
   },
 ];
 
@@ -53,6 +56,7 @@ const Projects = () => {
                     transition={{ duration: 1, ease: "easeIn" }}
                     viewport={{ once: false }}
                   >
+                    <img src={p.img} alt={p.title} className="project-img mb-3" />
                     <h2 className="fw-semibold fs-1 common-shead mb-3">
                       {p.title}
                     </h2>
