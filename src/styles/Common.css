@@ -5,11 +5,12 @@
 
 .common-text{
     color:rgb(242, 171, 241);
+    font-size: x-large;
     
 }
 .common-head{
     color: #f6b0e6;
-    font-size:x-large;
+    font-size:75px;
 }
 
 .common-shead{
@@ -24,7 +25,7 @@
 }
 
 .section-full {
-  min-height: 100vh; 
+  
   display: flex;
   align-items: center;
   justify-content: center;

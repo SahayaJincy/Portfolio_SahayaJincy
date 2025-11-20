@@ -5,13 +5,13 @@ import "../styles/Contact.css";
 const Contact = () => {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center text-center px-3 pt-5 bg-bg">
-      <p className="fw-semibold common-head mb-3 fs-1">Contact</p>
-      <p className="common-text mb-4 fs-3">
+      <p className="fw-semibold common-head mb-3">Contact</p>
+      <p className="common-text mb-4">
         Feel free to reach out — I’d love to connect!
       </p>
 
       <form className="contact-form w-100 mb-4" style={{ maxWidth: "700px" }}>
-        <div className="mb-3">
+        <div  className="mb-3">
           <input type="text" placeholder="Your Name" className="form-control fs-3" />
         </div>
         <div className="mb-3">

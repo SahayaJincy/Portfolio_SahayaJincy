@@ -23,7 +23,7 @@ const projects = [
     title: "Library Management System",
     desc: "Created a full-stack web app using Spring Boot, Hibernate, and MySQL with CRUD operations and role-based authentication.",
     tech: "ReactJS, Java, Spring Boot, Hibernate, MySQL",
-    github: "#",
+    github: "https://github.com/SahayaJincy/library_fe.git",
     img: `${process.env.PUBLIC_URL}/Images/Library.png`,
   },
 ];
@@ -36,10 +36,10 @@ const Projects = () => {
           <div className="col-12 d-flex justify-content-center">
             <div className="row">
               <div className="col-12">
-                <p className="fw-bold mb-2 project-title common-head">
-                  My Recent <span className="highlight">Works</span>
+                <p className="fw-bold mb-2 fs-1 common-head">
+                  My Recent <span className="highlight common-head">Works</span>
                 </p>
-                <p className="mb-5 fs-2 common-text">
+                <p className="mb-5  common-text">
                   Here are a few projects I've worked on recently.
                 </p>
               </div>

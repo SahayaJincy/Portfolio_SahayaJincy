@@ -11,7 +11,7 @@ const Skills = () => {
         { icon: "java-plain", name: "Java" },
         { icon: "javascript-plain", name: "JavaScript" },
         { icon: "react-original", name: "React.js" },
-        { icon: "nextjs-original", name: "Next.js" },
+        { icon: "nextjs-line", name: "Next.js" },
         { icon: "typescript-plain", name: "TypeScript" },
         { icon: "html5-plain", name: "HTML5" },
         { icon: "css3-plain", name: "CSS3" },
@@ -35,27 +35,29 @@ const Skills = () => {
   ];
 
   return (
-    <div className="container-fluid min-vh-60 py-5 text-center bg-bg common-text">
-      <p className="fw-bolder mb-50 fs-1 pt-3">
-        Professional <span className="common-head fs-2">Skillset</span>
+    <div className="container-fluid py-5 text-center bg-bg common-text">
+      <p className="fw-bolder fs-1 mb-50 common-head pt-3">
+        Professional <span className=" highlight common-head">Skillset</span>
       </p>
 
       {skillSections.map((section, index) => (
 <motion.div
   className="container-fluid text-center justify-content-center"
-  initial={{ opacity: 0, y: 60 }}
-  whileInView={{ opacity: 1, y: 0 }}
+  initial={{ opacity: 1, y: 60 }}
+  whileInView={{ opacity: 2, y: 0 }}
   viewport={{ once: false, amount: 0.2 }}
-  transition={{ duration: 1, ease: "easeOut" }}
+  transition={{ duration: 1, ease: "easeIn" }}
+      
 >
   <div className="row justify-content-center">
     <div className="col-12 col-md-10">
-      <div className="row justify-content-center gap-5">
+      <div className="row justify-content-center gap-3">
         {section.skills.map((skill, idx) => (
           <div
             key={idx}
-            className="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 "  
-          >
+            className="col-3 col-md-3 col-lg-2 col-xl-1"  
+          > 
+         
             <div className="skill-icon">
               <i className={`devicon-${skill.icon} colored`}></i>
               <p>{skill.name}</p>
