@@ -1,3 +1,13 @@
+.home-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh; 
+}
+
+
+
 .home-text {
   font-family: sans-serif;
   color: rgb(249, 198, 246);
@@ -27,7 +37,7 @@
 }
 
 
-.overlay {
+/* .overlay {
   grid-area: 1 / 1;
   width: 100%;
   height: 100%;
@@ -43,8 +53,23 @@
   padding: 1rem;
   text-align: center;
   z-index: 2;
+} */
+.overlay {
+ grid-area: 1 / 1;
+  inset: 0;
+  background: rgba(21, 1, 20, 0.35);
 }
 
+.overlay-text {
+  grid-area: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;      
+  text-align: center;
+  z-index: 2;
+}
 .custom-btn {
   border: 2px solid #f69cdf !important;
   color: #f69cdf !important;
