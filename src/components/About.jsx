@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="container-fluid section-spacing section-full d-flex align-items-center bg-bg">
       <div className="row justify-content-center text-center px-3 px-lg-5">
-        <div className="mt-5 about-img">
+        <div className="col-12 col-md-10 col-sm-6  mt-5 about-img">
           <img src={`${process.env.PUBLIC_URL}/Images/Sahaya Jincy.jpg`}
             alt="Sahaya Jincy"
             className="img-fluid shadow-lg about-img"

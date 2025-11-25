@@ -8,15 +8,15 @@ const Home = () => {
   return (
     <div className="container-fluid text-content-center bg-bg section-spacing">
       <div className="row justify-content-center">
-        <div className="col-12 col-md-10 col-sm-6 position-relative text-center py-5 home-img-container">
+        <div className="col-12 col-md-10 col-sm-6 text-center py-5 home-img-container">
+
           <img
-            src={`${process.env.PUBLIC_URL}/Images/Home Page1.png`}
+            src={`${process.env.PUBLIC_URL}/Images/Home.png`}
             alt="Sahaya Jincy"
             className="img-fluid shadow-lg  home-img"
           />       
-          
           <div className="overlay"></div>
-          <div className="overlay-text text-align-center text-center">
+          <div className="overlay-text">
             <p className="fw-bold display-3 home-text">Hi,</p>
             <p className="fw-bold display-3 home-text">I'm Sahaya Jincy👋</p>
 
@@ -39,7 +39,9 @@ const Home = () => {
             <p className="lead common-text fs-4">
               I'm a passionate Full Stack Developer who loves crafting responsive and dynamic web applications.
             </p>
-            </div>
+                      
+          
+          
             
             <div className="col-12 d-flex justify-content-center gap-4">
               <a
@@ -57,6 +59,7 @@ const Home = () => {
               >
                 View CV
               </a>
+              </div>
             
           </div>
         </div>

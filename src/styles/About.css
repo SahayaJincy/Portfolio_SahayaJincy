@@ -3,9 +3,7 @@
 }
 
 .about-img {
-      width: 20%;
-      height: 20%;
-      max-width: 40px;
+      max-width: 50px;
       border-radius: 50%;
       object-fit: cover;
       transition: transform 0.3s ease;
