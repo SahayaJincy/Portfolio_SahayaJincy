@@ -4,9 +4,9 @@ import "../styles/Contact.css";
 
 const Contact = () => {
   return (
-    <div className="d-flex flex-column justify-content-center align-items-center text-center px-3 pt-5 bg-bg">
-      <p className="fw-semibold common-head mb-3">Contact</p>
-      <p className="common-text mb-4">
+    <div className="d-flex flex-column justify-content-center align-items-center text-center bg-bg">
+      <p className="fw-semibold common-head">Contact</p>
+      <p className="common-text fs-3 mb-4">
         Feel free to reach out — I’d love to connect!
       </p>
 
@@ -24,12 +24,12 @@ const Contact = () => {
             className="form-control fs-3"
           ></textarea>
         </div>
-        <button type="submit" className="btn contact-btn w-90 rounded-pill fs-3">
+        <button type="submit" className="btn contact-btn w-90 ">
           Send Message
         </button>
       </form>
 
-      <div className="d-flex justify-content-center gap-4 mt-3">
+      <div className="d-flex justify-content-center gap-4 mb-5">
       
         <a
           href="mailto:r.sahayajincy@gmail.com"

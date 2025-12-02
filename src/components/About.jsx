@@ -18,7 +18,7 @@ const About = () => {
         <p className="fw-bolder mt-4 mb-2 text-center common-head">About Me</p>
 
      
-        <div className="container col-10 text-justify-center">
+        <div className="col-10 text-justify-center">
           <p className="mb-3 lh-lg fs-2 common-text">
             Hi, I'm <span className="fw-semibold spcl">Sahaya Jincy</span>, a passionate <span className="fw-semibold spcl">Full Stack Developer</span> with a background in <span className="fw-semibold spcl">Computer Science and Engineering</span>. I love turning creative ideas into responsive, user-friendly, and visually engaging web applications.
 

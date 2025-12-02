@@ -5,7 +5,8 @@
 
 .common-text{
     color:rgb(242, 171, 241);
-    font-size: x-large;
+    font-size: 20px;
+    text-align: justify;
     
 }
 .common-head{
@@ -19,8 +20,8 @@
 }
 
 .section-spacing {
-  padding-top: 50px;  
-  padding-bottom: 50px;
+  padding-top: 10px;  
+  /* padding-bottom: 10px; */
   scroll-margin-top: 10px; 
 }
 

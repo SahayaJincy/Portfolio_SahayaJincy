@@ -34,12 +34,12 @@ const Home = () => {
                 />
               </h3>
 
-              <p className="lead common-text fs-4">
+              <p className="lead common-text fs-3">
                 I'm a passionate Full Stack Developer who loves crafting responsive and dynamic web applications.
               </p>
 
               <div className="col-12 d-flex justify-content-center gap-4">
-                <a href="#contact" className="btn custom-btn mt-5 px-5 py-4 fs-4 rounded-pill">
+                <a href="#contact" className="btn custom-btn mt-2 px-3 py-2">
                   Contact Me
                 </a>
 
@@ -47,7 +47,7 @@ const Home = () => {
                   href={`${process.env.PUBLIC_URL}/Sahaya_Jincy_Resume.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn custom-btn mt-5 px-5 py-4 fs-4 rounded-pill"
+                  className="btn custom-btn mt-2 px-3 py-2"
                 >
                   View CV
                 </a>

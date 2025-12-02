@@ -56,6 +56,8 @@
   border: 2px solid #f69cdf !important;
   color: #f69cdf !important;
   transition: all 0.3s ease;
+  border-radius: 70px;
+  font-size: 20px;
 }
 
 .custom-btn:hover {

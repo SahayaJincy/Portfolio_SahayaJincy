@@ -8,26 +8,25 @@ const Skills = () => {
   const skillSections = [
     {
       skills: [
-        { icon: "java-plain", name: "Java" },
-        { icon: "javascript-plain", name: "JavaScript" },
-        { icon: "react-original", name: "React.js" },
-        { icon: "nextjs-line", name: "Next.js" },
-        { icon: "typescript-plain", name: "TypeScript" },
-        { icon: "html5-plain", name: "HTML5" },
-        { icon: "css3-plain", name: "CSS3" },
-        { icon: "bootstrap-plain", name: "Bootstrap" },
-        { icon: "tailwindcss-plain", name: "Tailwind CSS" },
-        { icon: "spring-plain", name: "Spring Boot" },
-        { icon: "hibernate-plain", name: "Hibernate" },
-        { icon: "mysql-plain", name: "MySQL" },
-        { icon: "firebase-plain", name: "Firebase" },
-        { icon: "git-plain", name: "Git" },
+        { icon: "java-plain colored", name: "Java" },
+        { icon: "javascript-plain colored", name: "JavaScript" },
+        { icon: "react-original colored", name: "React.js" },
+        { icon: "nextjs-plain", name: "Next.js" },
+        { icon: "typescript-plain colored", name: "TypeScript" },
+        { icon: "html5-plain colored", name: "HTML5" },
+        { icon: "css3-plain colored", name: "CSS3" },
+        { icon: "bootstrap-plain colored", name: "Bootstrap" },
+        { icon: "tailwindcss-plain colored", name: "Tailwind CSS" },
+        { icon: "spring-plain colored", name: "Spring Boot" },
+        { icon: "hibernate-plain colored", name: "Hibernate" },
+        { icon: "mysql-plain colored", name: "MySQL" },
+        { icon: "firebase-plain colored", name: "Firebase" },
+        { icon: "git-plain colored", name: "Git" },
         { icon: "github-original", name: "GitHub" },
-        { icon: "vscode-plain", name: "VS Code" },
-        { icon: "postman-plain", name: "Postman" },
-        { icon: "mysql-plain", name: "MySQL Workbench" }, 
-        { icon: "eclipse-plain", name: "Eclipse" },
-        { icon: "canva-original", name: "Canva" },
+        { icon: "postman-plain colored", name: "Postman" },
+        { icon: "mysql-plain colored", name: "MySQL Workbench" }, 
+        { icon: "eclipse-plain colored", name: "Eclipse" },
+        { icon: "canva-original colored", name: "Canva" },
        
       ],
     },
@@ -59,7 +58,7 @@ const Skills = () => {
           > 
          
             <div className="skill-icon">
-              <i className={`devicon-${skill.icon} colored`}></i>
+              <i className={`devicon-${skill.icon} `}></i>
               <p>{skill.name}</p>
             </div>
           </div>

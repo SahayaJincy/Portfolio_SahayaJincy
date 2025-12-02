@@ -39,7 +39,7 @@ const Projects = () => {
                 <p className="fw-bold mb-2 fs-1 common-head">
                   My Recent <span className="highlight common-head">Works</span>
                 </p>
-                <p className="mb-5  common-text">
+                <p className="mb-5 fs-3 common-text">
                   Here are a few projects I've worked on recently.
                 </p>
               </div>
