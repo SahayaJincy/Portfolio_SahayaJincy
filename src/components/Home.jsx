@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Home.css";
 import "../styles/Common.css";
 import ReactTyped from "react-typed";
-import homeBg from "./Images/Home.png";
+import homeBg from "./Images/HomeImg.png";
 
 const Home = () => {
   return (
